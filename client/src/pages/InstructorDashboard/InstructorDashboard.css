@@ -1,0 +1,21 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .dashboard-title {
+    color: #8a4baf;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .loading-text, .error-text {
+    font-size: 1.2rem;
+  }
+  
+  .error-text {
+    color: red;
+  }
+  

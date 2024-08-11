@@ -1,0 +1,220 @@
+.admin-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #8a4baf; /* Sidebar background color */
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar .tab-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar .tab-button.active {
+    background-color: #6d3f7f; /* Active tab background color */
+  }
+  
+  .sidebar .tab-button:hover {
+    background-color: #6d3f7f; /* Hover background color */
+  }
+  
+  .content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .welcome-message {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    color: #8a4baf; /* Welcome message color */
+    font-size: 1.5em;
+  }
+  
+  .tab-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .dashboard, .add-course, .add-lecture {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard {
+    color: #8a4baf; /* Title color */
+    font-size: 2em;
+  }
+  
+  .add-course {
+    color: #8a4baf;
+    font-size: 2em;
+  }
+  
+  .add-lecture {
+    color: #8a4baf;
+    font-size: 2em;
+  }
+  
+/* Stats */
+  .stats-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #8a4baf;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .card h3 {
+    color: #ffff; /* Color for the title */
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 24px;
+    margin: 0;
+    color: #ffff;
+  }
+  
+/* Add Course */
+.add-course-container {
+  max-width: 500px;
+  margin: 90px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.6) ;
+}
+
+.course-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-form label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #8a4baf;
+}
+
+.course-form input,
+.course-form textarea,
+.course-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.course-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #8a4baf;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.course-form button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: red;
+  margin-top: 10px;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #8a4baf;
+}
+
+/* Lecture */.add-lecture-container {
+  max-width: 500px;
+  margin: 90px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.lecture-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.lecture-form label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #8a4baf;
+}
+
+.lecture-form input,
+.lecture-form textarea,
+.lecture-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.lecture-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #8a4baf;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lecture-form button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: red;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #8a4baf;
+}
