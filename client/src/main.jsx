@@ -4,7 +4,8 @@ import App from './App.jsx'
 import { InstructorContextProvider } from './context/InstructorContext.jsx'
 import { CourseContextProvider } from './context/CourseContext.jsx'
 
-export const server = 'http://localhost:8080'
+// export const server = 'http://localhost:8080'
+export const server = 'https://lecture-scheduling-platform-server.vercel.app/'
 // export const server = 'https://online-lecture-schedulingplatform.onrender.com'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
