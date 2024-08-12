@@ -24,6 +24,8 @@ Overall Architecture: MERN (MongoDB, Express, React, Node.js) stack, providing a
 Basic Routes:
 
 Home : http://localhost:5173/
+![Home](https://github.com/user-attachments/assets/e8b7ae1c-9443-4820-b33e-7d6485aa653b)
+
 Courses : http://localhost:5173/courses
 About : http://localhost:5173/about
 
