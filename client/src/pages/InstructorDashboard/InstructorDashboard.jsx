@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { server } from '../../main';
 import { useParams } from 'react-router-dom';
-import InstructorLecturesCard from '../../components/lecturecard/InstructorLecturesCard';
+import InstructorLecturesCard from '../../components/lecturecard/InstructorLecturesCard.jsx';
 import './InstructorDashboard.css'; // Import the CSS file for styling
 
 const InstructorDashboard = ({ course }) => {
