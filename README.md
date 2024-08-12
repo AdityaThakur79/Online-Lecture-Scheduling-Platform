@@ -66,5 +66,6 @@ AddLecture : http://localhost:5173/admin/addlecture
 
 
 LectureRoute : http://localhost:5173/lectures/:id
-![Uploading courselecture.PNG…]()
+![courselecture](https://github.com/user-attachments/assets/70227034-d71c-4e76-89c5-e4ee54d85655)
+
 
