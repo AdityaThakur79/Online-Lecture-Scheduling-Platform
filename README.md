@@ -1,3 +1,5 @@
+Live Demo : https://online-lecture-scheduling-platform.onrender.com/
+
 Project Overview: Online Lecture Scheduling Platform
 Purpose:
 The platform is designed to streamline the process of scheduling lectures for an online education platform. It enables administrators to manage instructors, courses, and lectures efficiently.
